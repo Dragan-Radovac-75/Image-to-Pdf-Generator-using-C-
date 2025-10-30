@@ -8,7 +8,7 @@
     <StartupObject>Application.ImageToPdf</StartupObject>
     <UseWindowsForms>True</UseWindowsForms>
 
-	  <ImplicitUsings>enable</ImplicitUsings>
+	  <ImplicitUsings>disable</ImplicitUsings>
 	  <Nullable>enable</Nullable>
 
   </PropertyGroup>

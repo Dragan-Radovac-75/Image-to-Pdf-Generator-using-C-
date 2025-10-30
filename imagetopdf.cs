@@ -1,4 +1,9 @@
-﻿using System.IO.Compression;
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.IO.Compression;
+using System.Linq;
 using System.Text;
 
 namespace Application;
@@ -77,7 +82,7 @@ public partial class ImageToPdf
         }
         catch (Exception exception)
         {
-            throw new Exception(exception.Message);
+            Console.WriteLine(exception.Message);               
         }
         finally
         {
