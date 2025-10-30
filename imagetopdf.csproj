@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+	  	  
+    <StartupObject>Application.ImageToPdf</StartupObject>
+    <UseWindowsForms>True</UseWindowsForms>
+
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+
+  </PropertyGroup>
+
+	<ItemGroup>
+
+		<None Update="1.jpeg">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<TargetPath>1.jpeg</TargetPath>
+		</None>
+
+		<None Update="1.tiff">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<TargetPath>1.tiff</TargetPath>
+		</None>
+
+		<None Update="1.png">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<TargetPath>1.png</TargetPath>
+		</None>
+
+		<None Update="1.bmp">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<TargetPath>1.bmp</TargetPath>
+		</None>
+
+		<None Update="1.gif">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<TargetPath>1.gif</TargetPath>
+		</None>
+
+	</ItemGroup>
+
+
+</Project>
